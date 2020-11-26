@@ -1,0 +1,6 @@
+[submodule "rosseti-innovation-back"]
+	path = rosseti-innovation-back
+	url = git@github.com:sqsinformatique/rosseti-innovation-back.git
+[submodule "rosseti-innovation-front"]
+	path = rosseti-innovation-front
+	url = git@github.com:sqsinformatique/rosseti-innovation-front.git
