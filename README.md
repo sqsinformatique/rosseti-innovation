@@ -26,7 +26,10 @@ Leaders Of Digital
 1. Настроить адрес бэка в ./src/app/globals/config.ts
 1. Запустить npm i
 1. Выполнит sudo npm install -g @angular/cli
-1. Выполнить ng serve
+1. Выполнить ng build --prod
+1. Выполнить cd  dist/rosseti-in
+1. Установить web-сервер sudo npm install --global http-server
+1. Выполнить http-server -p 4200
 1. Запустить ngrok 
    ```bash
    ngrok http http://localhost:4200 -host-header="localhost:4200"  
