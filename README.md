@@ -12,9 +12,10 @@ Leaders Of Digital
 1. Установить ngrok
 1. Запустить ngrok 
    ```bash
-   ngrok http http://localhost:9000 -host-header="localhost:9000"  
+   ngrok http http://localhost:9000  
    ```
 1. Скопировать/записать/запомнить адрес, который будет выведен после запуска в формате https://XXXXXXXXXX.ngrok.io 
+1. swagger http://localhost:9000/api/v1/swagger/index.html (не все методы есть в свагере)
   
 Если нужно сменить порт для бэка, то:  
 Перейти в ./rosseti-back
@@ -28,7 +29,7 @@ Leaders Of Digital
 1. Выполнить ng serve
 1. Запустить ngrok 
    ```bash
-   ngrok http http://localhost:9000 -host-header="localhost:4200"  
+   ngrok http http://localhost:4200 -host-header="localhost:4200"  
    ```
 1. Обратиться к сервису по адресу, который будет выведен после запуска в формате https://XXXXXXXXXX.ngrok.io
 
