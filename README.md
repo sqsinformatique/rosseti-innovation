@@ -27,7 +27,7 @@ Leaders Of Digital
 1. Запустить npm i
 1. Выполнит sudo npm install -g @angular/cli
 1. Выполнить ng build --prod
-1. Выполнить cd  dist/rosseti-in
+1. Выполнить cd  dist/rosseti-inn
 1. Установить web-сервер sudo npm install --global http-server
 1. Выполнить http-server -p 4200
 1. Запустить ngrok 
