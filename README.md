@@ -21,6 +21,11 @@ Leaders Of Digital
 Перейти в ./rosseti-back
 В файле variables.env в строке с параметром PUBLICHTTP_LISTEN изменить порт 9000 на произвольный
 
+### Защита API
+Практически весь API защищён, нужно передавать в запросах заголовок Authorization в следующем формате
+"session PzcOiGMou6Mk1YjkskGjntcIcr7vIJ8Qu1hJTYak78nFwvmit5PZ9QQGkU4zy0K1zNvGvKSoaiWjR5xAYDyzB10L0KS7edXk1nJa"  
+Для curl: -H \"Authorization: session PzcOiGMou6Mk1YjkskGjntcIcr7vIJ8Qu1hJTYak78nFwvmit5PZ9QQGkU4zy0K1zNvGvKSoaiWjR5xAYDyzB10L0KS7edXk1nJa\"
+
 ## Запуск фронта
 1. Перейти в ./rosseti-innovation-front
 1. Настроить адрес бэка в ./src/app/globals/config.ts
