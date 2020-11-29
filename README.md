@@ -49,3 +49,6 @@ https://i.stack.imgur.com/rFyQW.png
 ## Тестовые креды
 login/pass: +79169999999/123456789
 
+## Контакты
+https://t.me/SoldatovSergey
+
